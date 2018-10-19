@@ -12,12 +12,19 @@ puts "Mashrur" + " " + "Tim"
 
 # empty is good alternative if string is empty
 
-puts "Hello enter your first name"
+# puts "Hello enter your first name"
 
-first_name = gets.chomp
+def multiply(first_number, second_number)
+  first_number.to_f * second_number.to_f
+end
 
-puts "Hello enter your last name"
+puts multiply(5, 10.2)
 
-last_name = gets.chomp
 
-puts "Welcome #{first_name} #{last_name}, to the jungle!"
+# first_name = gets.chomp
+
+# puts "Hello enter your last name"
+
+# last_name = gets.chomp
+
+# puts "Welcome #{first_name} #{last_name}, to the jungle!"
