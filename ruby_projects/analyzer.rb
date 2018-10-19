@@ -1,5 +1,9 @@
 puts "What is your first name, last name?"
 
+def multiply(first_number, second_number)
+  first_number.to_f * second_number.to_f
+end
+
 first_name = gets.chomp
 last_name = gets.chomp
 fullname = first_name + ' ' + last_name
